@@ -11,9 +11,9 @@ function setCart(c) {
 
 function addToCart(itemName) {
  // write your code here
- var itemObject = {}
- itemObject.itemName = itemName
- itemObject.itemPrice
+ var newItem = {}
+ newItem.itemName = itemName
+ newItem.itemPrice = 
  
 }
 
