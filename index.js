@@ -13,6 +13,7 @@ function addToCart(itemName) {
  // write your code here
  var itemObject = {}
  itemObject.itemName = itemName
+ itemObject.item
  
 }
 
