@@ -23,8 +23,8 @@ function viewCart() {
   if (cart.length === 0) {
     return 'Your shopping cart is empty.'
   } else if (cart.length === 1) {
-    var tempName = cart[0].itemName
-    var tempPrice = cart[0].itemPrice
+    var tempName = cart[0][itemName]
+    var tempPrice = cart[0][itemPrice]
     return `In your cart, you have ${tempName} at $${tempPrice}.`
   } else {
     for (var i = 0; i < cart.length; i++) {
