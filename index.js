@@ -13,7 +13,7 @@ function addToCart(itemName) {
  // write your code here
  var newItem = {}
  newItem.itemName = itemName
- newItem.itemPrice = 
+ newItem.itemPrice = Math.floor(Math.random())
  
 }
 
