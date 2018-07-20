@@ -22,7 +22,9 @@ function viewCart() {
   // write your code here
   if (cart.length === 0) {
     return 'Your shopping cart is empty.'
-  } else if {
+  } else if (cart.length === 1) {
+    return 
+  } else {
     
   }
 }
