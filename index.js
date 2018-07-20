@@ -24,7 +24,8 @@ function viewCart() {
     return 'Your shopping cart is empty.'
   } else if (cart.length === 1) {
     var tempName = cart[0].itemName
-    return
+    var tempPrice = parseInt(cart[0].itemPrice)
+    return 
   } else {
     
   }
