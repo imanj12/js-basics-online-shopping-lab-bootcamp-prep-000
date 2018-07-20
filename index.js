@@ -31,7 +31,7 @@ function viewCart() {
       var cartName = cart[i].itemName
       var cartPrice = cart[i].itemPrice
       var string = 'In your cart, you have'
-      if (i === (cart.length - 1)) {
+      if (i === cart.length - 1) {
         string += ` and ${cartName} at $${cartPrice}.`
       } else {
         string += ` ${cartName} at $${cartPrice},`
