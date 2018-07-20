@@ -28,10 +28,10 @@ function viewCart() {
     return `In your cart, you have ${tempName} at $${tempPrice}.`
   } else {
     for (var i = 0; i < cart.length; i++) {
-      var viewName = cart[i].itemName
-      var viewPrice = cart[i].itemPrice
+      var cartName = cart[i].itemName
+      var cartPrice = cart[i].itemPrice
       var string = 'In your cart, you have'
-      
+      string += ` ${cartName} at ${cartPrice}`
     }
   }
 }
