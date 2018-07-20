@@ -15,7 +15,7 @@ function addToCart(itemName) {
  newItem.itemName = itemName
  newItem.itemPrice = Math.floor(Math.random() * 101) + 1
  cart.push(newItem)
- return `${itemName} has been added to cart.`
+ return `${itemName} has been added to your cart.`
 }
 
 function viewCart() {
