@@ -9,8 +9,9 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item) {
+function addToCart(itemName) {
  // write your code here
+ var itemObject = { itemName:  }
 }
 
 function viewCart() {
