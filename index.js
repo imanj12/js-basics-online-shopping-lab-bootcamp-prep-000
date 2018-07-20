@@ -31,13 +31,12 @@ function viewCart() {
       var cartName = cart[i].itemName
       var cartPrice = cart[i].itemPrice
       var string = 'In your cart, you have'
-      if (i === cart.length - 1) {
-        string += ` and ${cartName} at $${cartPrice}.`
-      } else {
-        string += ` ${cartName} at $${cartPrice},`
-      }
+      string += ` ${cartName} at $${cartPrice},`
     }
-    
+    i = cart.length - 1
+    cartName = cart[i].itemName
+    cartPrice = cart[i].itemPrice
+    string += ` and ${cartName} at $${cartPrice}.`
     return string
   }
 }
